@@ -81,6 +81,6 @@ K_original = [517.3 0 318.6; 0 516.5 244.3; 0 0 1] # camera calibration of raw i
 d_orignal = [0.2624, -0.9531, -0.0054, 0.0026, 1.1633]; # distortion coefficients of raw image
 
 newcameramatrix = get_optimalnewcameramatrix(cameramatrix=K_original, distcoeffs=d_orignal, imgsize=(640,480), alpha=0, newimgsize=(640,480))
-xmap, ymap = ImageDistortion.init_undistortrectifymap(cameramatrix=K_original, distcoeffs=d_orignal, newcameramatrix=newcameramatrix, imgsize=(640,480))
+xmap, ymap = init_undistortrectifymap(cameramatrix=K_original, distcoeffs=d_orignal, newcameramatrix=newcameramatrix, imgsize=(640,480))
 newimg = remap(src, xmap, ymap)
 ```
