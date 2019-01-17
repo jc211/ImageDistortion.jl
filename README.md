@@ -49,7 +49,7 @@ The function undistortpoints takes a matrix of shape (n,2) representing points (
 
 ```julia
 points = [10 23; 100 100.3; 23.1 20.5]
-distortedpoints = undistortpoints(points, cameramatrix=[517.3 0 318.6; 0 516.5 244.3; 0 0 1], distcoeffs=[0.2624, -0.9531, -0.0054, 0.0026, 1.1633])
+undistortedpoints = undistortpoints(points, cameramatrix=[517.3 0 318.6; 0 516.5 244.3; 0 0 1], distcoeffs=[0.2624, -0.9531, -0.0054, 0.0026, 1.1633])
 ```
 
 ### Get Optimal Camera Matrix
