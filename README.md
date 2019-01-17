@@ -2,6 +2,14 @@
 
 Utility functions to distort and undistort an image or a set of points. The code is for the most part ported over from OpenCV to native Julia.
 
+## Installation
+
+```julia
+Pkg.add("https://github.com/jc211/ImageDistortion.jl)"
+using ImageDistortion
+```
+
+
 ## Disortion Models
 
 OpenCV implements the following [distortion model](https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html)
