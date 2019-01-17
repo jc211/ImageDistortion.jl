@@ -5,7 +5,7 @@ Utility functions to distort and undistort an image or a set of points. The code
 ## Installation
 
 ```julia
-Pkg.add("https://github.com/jc211/ImageDistortion.jl)"
+Pkg.add("https://github.com/jc211/ImageDistortion.jl")
 using ImageDistortion
 ```
 
