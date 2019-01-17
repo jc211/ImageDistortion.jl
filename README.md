@@ -8,7 +8,7 @@ OpenCV implements the following [distortion model](https://docs.opencv.org/2.4/m
 
 ![Distortion Equations](https://github.com/jc211/ImageDistortion.jl/blob/master/img/distortionmodel.PNG "OpenCV distortion formulas")
 
-This implementation currently only supports the k1,k2,k3,p1,p2 parameters. They are represented by distcoeffs where a sample distcoeffs is in the form
+This implementation currently only supports the k1, k2, k3, p1, p2 parameters. They are represented by distcoeffs where a sample distcoeffs is in the form
 
 ```julia
 distcoeffs = [k1, k2, p1, p2, k3]
