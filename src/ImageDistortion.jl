@@ -1,6 +1,6 @@
 module ImageDistortion
 
-using("distortion.jl")
+include("distortion.jl")
 
 export
     distortpoints,
