@@ -163,14 +163,6 @@ git-tree-sha1 = "a5de7b61f6fa98fb93c39857fa43cf40ca383b28"
 uuid = "51556ac3-7006-55f5-8cb3-34580c88182d"
 version = "0.1.1"
 
-[[ImageDistortion]]
-deps = ["Images"]
-git-tree-sha1 = "8993e2db809a657a169d974d0bbd97ab9b5b0649"
-repo-rev = "master"
-repo-url = "https://github.com/jc211/ImageDistortion.jl.git"
-uuid = "140597c5-abba-5914-a308-4a1a4b44d6dc"
-version = "0.0.0"
-
 [[ImageFiltering]]
 deps = ["CatIndices", "ColorVectorSpace", "Colors", "ComputationalResources", "DataStructures", "FFTViews", "FFTW", "FixedPointNumbers", "ImageCore", "LinearAlgebra", "Logging", "MappedArrays", "OffsetArrays", "Random", "StaticArrays", "Statistics", "Test", "TiledIteration"]
 git-tree-sha1 = "9bb70bff423fb26b45817da5f127d71e662bfe50"

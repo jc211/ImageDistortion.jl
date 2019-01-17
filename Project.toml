@@ -1,2 +1,7 @@
+name = "ImageDistortion"
+uuid = "9a7fc780-19f8-11e9-118c-67b5e89c43c9"
+authors = ["jc211 <29726242+jc211@users.noreply.github.com>"]
+version = "0.1.0"
+
 [deps]
-ImageDistortion = "140597c5-abba-5914-a308-4a1a4b44d6dc"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
